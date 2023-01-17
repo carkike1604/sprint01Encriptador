@@ -39,7 +39,7 @@ async function loadBlob(fileName) {
 }
 document.querySelector('.btn-copiar').addEventListener('click', async () => {
     // Para escribir texto en el clipboard se utiliza "clipboard.writeText"
-    var input = document.querySelector(".area").values
+    var input = document.querySelector(".area").value
     navigator.clipboard.writeText(input)
 })
 
